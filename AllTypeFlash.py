@@ -1,4 +1,4 @@
-path = ["Flashcards/NET3101/CM", "Flashcards/NET3101/TD1"]
+path = ["Flashcards/MAT3101/PolyCours"]
 
 import os, random, time
 
@@ -7,7 +7,7 @@ from IPython.display import HTML
 
 import cv2
 
-ideal_width, ideal_height = 2000, 1400
+ideal_width, ideal_height = 1000, 600
 screen_width, screen_height = (2560, 1600)
 def openThisScreenshot(file) :
 
@@ -19,11 +19,20 @@ def openThisScreenshot(file) :
 	x_pos = (screen_width - image_width) // 4
 	y_pos = (screen_height - image_height) // 4
 
+	if image_width / image_height < ideal_width/ideal_height:
+		#resize to height
+		resized_image = cv2.resize(image, (int(image_width*ideal_height/image_height), ideal_height))
+	else : 
+		#resize to width
+		resized_image = cv2.resize(image, (ideal_width, int(image_height*ideal_width/image_width)))
+	
+	
+
 	# Create a named window with a specific position
 
 	# Display the image
-	cv2.imshow('Centered Image', image)
-	cv2.moveWindow('Centered Image', x_pos, y_pos)
+	cv2.imshow('Centered Image', resized_image)
+	#cv2.moveWindow('Centered Image', x_pos, y_pos)
 
 	cv2.waitKey(0)
 	time.sleep(0.1)
