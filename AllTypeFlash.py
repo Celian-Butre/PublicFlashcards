@@ -1,4 +1,4 @@
-path = ["../NET3101/CM", "../NET3101/TD1"]
+path = ["Flashcards/NET3101/CM", "Flashcards/NET3101/TD1"]
 
 import os, random, time
 
