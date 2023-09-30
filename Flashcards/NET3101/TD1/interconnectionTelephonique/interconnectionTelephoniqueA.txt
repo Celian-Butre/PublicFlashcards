@@ -1,0 +1,4 @@
+Le terminal téléphonique
+La box en cas de téléphonie sur IP
+le support de transmission
+Le nœud d'accès et les nœuds intermédiaires

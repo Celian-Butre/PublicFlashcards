@@ -1,0 +1,4 @@
+quelle est l'ordre de grandeur du débit pour les réseaux 
+LAN
+MAN
+WAN

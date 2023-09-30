@@ -1,0 +1,3 @@
+LAN --> 100Mb à 1Gb par sec
+MAN --> 40-100Gb par sec par longueur d'onde
+WAN --> 500Gb à 1Tb par sec par longueur d'onde

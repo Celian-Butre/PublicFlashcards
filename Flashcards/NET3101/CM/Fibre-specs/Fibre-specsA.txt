@@ -1,0 +1,2 @@
+Monomode pour les télécoms : Cœur 5 à 9µm, Gaine Optique 125µm
+Multi-mode historiquement moins cher : Cœur 50µm, Gaine Optique 125µm

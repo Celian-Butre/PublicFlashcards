@@ -1,0 +1,3 @@
+Un émetteur : optique, électrique, électromagnétique
+Un support de transmission : paire cuivre, câble coaxial, fibre optique, liason sans fil
+Un récepteur : optique, électrique, électromagnétique

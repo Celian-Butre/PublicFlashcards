@@ -1,0 +1,2 @@
+10 * log(P2/P1) (arrivée sur départ)
+atténuation de 3dB pour P2/P1 = 1/2
